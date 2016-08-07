@@ -3,7 +3,7 @@
  *
  */
 
-var Milad = React.createClass({
+var PushNotification = React.createClass({
     displayName: 'Notif',
 
     getDefaultProps: function () {
@@ -46,7 +46,7 @@ function Notif(message, options) {
     }, options);
 
     wrapper = document.body.appendChild(document.createElement('div'));
-    React.render(<Milad {...props} />, wrapper);
+    React.render(<PushNotification {...props} />, wrapper);
 
 
 }
